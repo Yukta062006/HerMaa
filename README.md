@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="./hermaa_logo.png" alt="HerMaa Logo" width="180"/>
 
-First, run the development server:
+# 🌸 HerMaa
+
+### *From Her First Period to Every Stage of Life.*
+
+💜 **Mother's Care. Daughter's Confidence.**
+
+An AI-powered women's healthcare platform that empowers women through personalized health insights, period tracking, AI assistance, wellness guidance, multilingual accessibility, and secure health management.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Website-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_DEPLOYMENT_URL)
+[![License](https://img.shields.io/badge/License-MIT-E91E63?style=for-the-badge)]
+[![Status](https://img.shields.io/badge/Status-Active-7C3AED?style=for-the-badge)]
+
+</div>
+
+---
+
+# ✨ Overview
+
+HerMaa is an AI-powered healthcare companion designed to support women throughout every stage of life. From menstrual health and PCOS awareness to wellness guidance and AI-powered assistance, HerMaa combines technology with compassionate care in a secure and user-friendly platform.
+
+---
+
+# 🌟 Features
+
+- 🩸 Smart Period Tracker
+- 🤖 AI Health Assistant
+- 📊 Health Insights Dashboard
+- 🌸 Cycle Prediction
+- 🥗 Nutrition & Wellness Guidance
+- 💧 Water & Habit Tracking
+- 🧠 Mental Wellness Support
+- 🌍 Multilingual Support
+- 🔒 Secure Authentication
+- ☁️ Cloud Sync with Firebase
+- 📱 Fully Responsive UI
+- 🚀 Fast & Modern User Experience
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Gemini_AI-8E75FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+</p>
+
+---
+
+# 📸 Preview
+
+<p align="center">
+
+<img src="./assets/landing-page.png" width="900"/>
+
+</p>
+
+---
+
+# 🚀 Installation
 
 ```bash
+git clone https://github.com/Yukta062006/HerMaa.git
+
+cd HerMaa
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🔑 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file.
 
-## Learn More
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
 
-## Deploy on Vercel
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NEXT_PUBLIC_FIREBASE_APP_ID=
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NEXT_PUBLIC_GEMINI_API_KEY=
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+HerMaa/
+│
+├── public/
+│   ├── logo.png
+│   ├── favicon.png
+│   └── hero_illustration.png
+│
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── sections/
+│   ├── lib/
+│   ├── hooks/
+│   ├── utils/
+│   └── styles/
+│
+├── firebase.ts
+├── package.json
+└── README.md
+```
+
+---
+
+# 🎯 Vision
+
+HerMaa aims to make women's healthcare accessible, intelligent, inclusive, and compassionate by combining AI with modern healthcare technology.
+
+---
+
+# 👥 Team
+
+## 👩‍💻 Yukta Thakur
+**Role:** Full Stack Developer
+
+- 🐙 GitHub: https://github.com/Yukta062006
+- 💼 LinkedIn: https://www.linkedin.com/in/yukta-thakur-38251a328
+
+---
+
+## 👨‍💻 Navin Shanke
+**Role:** Full Stack Developer
+
+- 📧 Email: navinshanke@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/navin-shanke-707581218
+---
+
+# 🌸 Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+It motivates future improvements and helps others discover HerMaa.
+
+---
+
+<div align="center">
+
+### 💜 Built with care for every woman's health journey.
+
+**HerMaa — From Her First Period to Every Stage of Life.**
+
+</div>
