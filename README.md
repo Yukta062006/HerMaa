@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./website/assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
+<img src="./website/assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
 </div>
 
 # 🌸 HerMaa
