@@ -1,6 +1,6 @@
 <div align="center">
-
-<img src="./hermaa_logo.png" alt="HerMaa Logo" width="180"/>
+  <img src="./assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
+</div>
 
 # 🌸 HerMaa
 
@@ -91,19 +91,15 @@ npm run dev
 Create a `.env.local` file.
 
 ```env
-NEXT_PUBLIC_FIREBASE_API_KEY=
+APP_NAME=HerMaa API
 
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+DEBUG=true
 
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+SECRET_KEY=your-secret-key-change-in-production
 
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+GEMINI_API_KEY=your-gemini-api-key
 
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-
-NEXT_PUBLIC_FIREBASE_APP_ID=
-
-NEXT_PUBLIC_GEMINI_API_KEY=
+FIREBASE_PROJECT_ID=your-firebase-project-id
 ```
 
 ---
