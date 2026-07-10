@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
+  <img src="./website/assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
 </div>
 
 # 🌸 HerMaa
@@ -9,10 +9,6 @@
 💜 **Mother's Care. Daughter's Confidence.**
 
 An AI-powered women's healthcare platform that empowers women through personalized health insights, period tracking, AI assistance, wellness guidance, multilingual accessibility, and secure health management.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Website-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_DEPLOYMENT_URL)
-[![License](https://img.shields.io/badge/License-MIT-E91E63?style=for-the-badge)]
-[![Status](https://img.shields.io/badge/Status-Active-7C3AED?style=for-the-badge)]
 
 </div>
 
