@@ -1,6 +1,6 @@
 <div align="center">
-<img src="./website/assets/hermaa_logo.png" alt="HerMaa Logo" width="180"/>
-</div>
+
+<img src="./website/assets/favicon.png" alt="HerMaa Logo" width="170"/>
 
 # 🌸 HerMaa
 
@@ -8,32 +8,48 @@
 
 💜 **Mother's Care. Daughter's Confidence.**
 
-An AI-powered women's healthcare platform that empowers women through personalized health insights, period tracking, AI assistance, wellness guidance, multilingual accessibility, and secure health management.
+<p>
+An AI-powered women's healthcare platform that empowers women through intelligent health insights,
+AI guidance, personalized wellness, and compassionate care.
+</p>
+
+<p>
+<a href="https://her-maa-hsyc.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-HerMaa-9C27B0?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/Yukta062006/HerMaa">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
 
 </div>
 
 ---
 
-# ✨ Overview
+# ✨ About HerMaa
 
-HerMaa is an AI-powered healthcare companion designed to support women throughout every stage of life. From menstrual health and PCOS awareness to wellness guidance and AI-powered assistance, HerMaa combines technology with compassionate care in a secure and user-friendly platform.
+HerMaa is an AI-powered women's healthcare companion designed to support girls and women throughout every stage of life—from their first menstrual cycle to long-term wellness.
+
+The platform combines AI, healthcare insights, personalized recommendations, and secure cloud technology to provide a safe, intelligent, and accessible healthcare experience.
 
 ---
 
 # 🌟 Features
 
-- 🩸 Smart Period Tracker
+- 🩸 Smart Period Tracking
 - 🤖 AI Health Assistant
-- 📊 Health Insights Dashboard
+- 📈 Personalized Health Insights
 - 🌸 Cycle Prediction
-- 🥗 Nutrition & Wellness Guidance
-- 💧 Water & Habit Tracking
+- 🥗 Nutrition Recommendations
+- 💧 Water & Habit Tracker
 - 🧠 Mental Wellness Support
 - 🌍 Multilingual Support
-- 🔒 Secure Authentication
-- ☁️ Cloud Sync with Firebase
-- 📱 Fully Responsive UI
-- 🚀 Fast & Modern User Experience
+- 🔒 Secure Firebase Authentication
+- ☁️ Cloud Sync
+- 📱 Fully Responsive Design
+- ⚡ Modern & Fast User Experience
 
 ---
 
@@ -49,31 +65,73 @@ HerMaa is an AI-powered healthcare companion designed to support women throughou
 
 <br>
 
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Gemini_AI-8E75FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Gemini-8E75FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
 
 </p>
 
 ---
 
-# 📸 Preview
+# 🚀 Live Demo
 
-<p align="center">
+### 🌐 Website
 
-<img src="./assets/landing-page.png" width="900"/>
+https://her-maa-hsyc.vercel.app
 
-</p>
+### ⚙ Backend API
+
+https://hermaa.onrender.com
 
 ---
 
-# 🚀 Installation
+# 📂 Project Structure
+
+```text
+HerMaa
+│
+├── backend
+│   ├── app
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── frontend
+│
+├── website
+│   ├── assets
+│   ├── css
+│   └── ...
+│
+└── docs
+```
+
+---
+
+# ⚙ Installation
 
 ```bash
 git clone https://github.com/Yukta062006/HerMaa.git
 
 cd HerMaa
+```
+
+### Backend
+
+```bash
+cd backend
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
 
 npm install
 
@@ -82,82 +140,65 @@ npm run dev
 
 ---
 
-# 🔑 Environment Variables
+# 🔐 Environment Variables
 
-Create a `.env.local` file.
+### Backend
 
 ```env
 APP_NAME=HerMaa API
-
-DEBUG=true
-
-SECRET_KEY=your-secret-key-change-in-production
-
-GEMINI_API_KEY=your-gemini-api-key
-
-FIREBASE_PROJECT_ID=your-firebase-project-id
+DEBUG=false
+SECRET_KEY=YOUR_SECRET_KEY
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+FIREBASE_PROJECT_ID=YOUR_FIREBASE_PROJECT_ID
 ```
 
----
+### Frontend
 
-# 📂 Project Structure
+```env
+NEXT_PUBLIC_API_URL=https://hermaa.onrender.com
 
-```text
-HerMaa/
-│
-├── public/
-│   ├── logo.png
-│   ├── favicon.png
-│   └── hero_illustration.png
-│
-├── src/
-│   ├── app/
-│   ├── components/
-│   ├── sections/
-│   ├── lib/
-│   ├── hooks/
-│   ├── utils/
-│   └── styles/
-│
-├── firebase.ts
-├── package.json
-└── README.md
+NEXT_PUBLIC_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
+
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=YOUR_AUTH_DOMAIN
+
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=YOUR_STORAGE_BUCKET
+
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=YOUR_SENDER_ID
+
+NEXT_PUBLIC_FIREBASE_APP_ID=YOUR_APP_ID
 ```
 
 ---
 
 # 🎯 Vision
 
-HerMaa aims to make women's healthcare accessible, intelligent, inclusive, and compassionate by combining AI with modern healthcare technology.
+HerMaa aims to make women's healthcare intelligent, inclusive, secure, and accessible by combining AI with modern healthcare technology.
+
+Our mission is to ensure that every woman receives personalized guidance, trusted health information, and compassionate digital support throughout every stage of life.
 
 ---
 
-# 👥 Team
+# 👩‍💻 Developer
 
-## 👩‍💻 Yukta Thakur
-**Role:** Full Stack Developer
+## Yukta Thakur
 
-- 🐙 GitHub: https://github.com/Yukta062006
-- 💼 LinkedIn: https://www.linkedin.com/in/yukta-thakur-38251a328
+**Full Stack Developer | AI Enthusiast | Open Source Contributor**
 
----
+💼 LinkedIn
 
-## 👨‍💻 Navin Shanke
-**Role:** Full Stack Developer
+https://www.linkedin.com/in/yukta-thakur-38251a328
 
-- 📧 Email: navinshanke@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/navin-shanke-707581218
----
+🐙 GitHub
 
-# 🌸 Support
-
-If you like this project, please give it a ⭐ on GitHub.
-
-It motivates future improvements and helps others discover HerMaa.
+https://github.com/Yukta062006
 
 ---
 
 <div align="center">
+
+## 🌸 If you found this project useful, consider giving it a ⭐
 
 ### 💜 Built with care for every woman's health journey.
 
