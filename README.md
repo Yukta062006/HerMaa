@@ -1,6 +1,6 @@
 <div align="center">
-
-<img src="./website/assets/favicon.png" alt="HerMaa Logo" width="170"/>
+<img src="https://raw.githubusercontent.com/Yukta062006/HerMaa/master/website/assets/favicon.png" alt="HerMaa Logo" width="180"/>
+</div>
 
 # 🌸 HerMaa
 
