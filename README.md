@@ -1,12 +1,13 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Yukta062006/HerMaa/master/website/assets/favicon.png" alt="HerMaa Logo" width="180"/>
-</div>
+
+https://raw.githubusercontent.com/Yukta062006/HerMaa/main/website/assets/favicon.png
 
 # 🌸 HerMaa
 
 ### *From Her First Period to Every Stage of Life.*
 
 💜 **Mother's Care. Daughter's Confidence.**
+</div>
 
 <p>
 An AI-powered women's healthcare platform that empowers women through intelligent health insights,
