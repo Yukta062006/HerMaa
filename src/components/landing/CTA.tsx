@@ -30,7 +30,7 @@ export default function CTA() {
               transition={{ duration: 2, repeat: Infinity }}
               className="w-20 h-20 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-6"
             >
-              <Image src="/hermaa_logo.png" alt="HerMaa" width={56} height={56} className="rounded-xl" />
+              <Image src="/hermaa_logo.png" alt="HerMaa" width={64} height={64} className="rounded-xl" />
             </motion.div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
