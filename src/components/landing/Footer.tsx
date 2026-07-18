@@ -5,10 +5,31 @@ import Link from "next/link";
 import Image from "next/image";
 
 const links = {
-  Product: ["Features", "AI Assistant", "Period Tracker", "Health Insights", "Pricing"],
-  Company: ["About Us", "Careers", "Blog", "Press"],
-  Support: ["Help Center", "Contact", "Privacy Policy", "Terms of Service"],
-  Community: ["Testimonials", "Social Media", "Partners", "Events"],
+  Product: [
+    { name: "Features", href: "#features" },
+    { name: "AI Assistant", href: "#ai" },
+    { name: "Period Tracker", href: "/dashboard" },
+    { name: "Health Insights", href: "/dashboard" },
+    { name: "Pricing", href: "#faq" },
+  ],
+  Company: [
+    { name: "About Us", href: "#about" },
+    { name: "Careers", href: "mailto:yuktaravindrathakur2006@gmail.com?subject=Careers at HerMaa" },
+    { name: "Blog", href: "https://github.com/Yukta062006/HerMaa" },
+    { name: "Press", href: "mailto:yuktaravindrathakur2006@gmail.com?subject=Press Inquiry" },
+  ],
+  Support: [
+    { name: "Help Center", href: "#faq" },
+    { name: "Contact", href: "mailto:yuktaravindrathakur2006@gmail.com" },
+    { name: "Privacy Policy", href: "#" },
+    { name: "Terms of Service", href: "#" },
+  ],
+  Community: [
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "Social Media", href: "https://www.linkedin.com/in/yukta-thakur-38251a328" },
+    { name: "Partners", href: "mailto:yuktaravindrathakur2006@gmail.com?subject=Partnership" },
+    { name: "Events", href: "https://github.com/Yukta062006" },
+  ],
 };
 
 export default function Footer() {
@@ -39,9 +60,9 @@ export default function Footer() {
               <h4 className="font-semibold text-hermaa-text mb-4">{category}</h4>
               <ul className="space-y-2">
                 {items.map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="text-sm text-hermaa-muted hover:text-primary transition-colors">
-                      {item}
+                  <li key={item.name}>
+                    <Link href={item.href} className="text-sm text-hermaa-muted hover:text-primary transition-colors">
+                      {item.name}
                     </Link>
                   </li>
                 ))}
