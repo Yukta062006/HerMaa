@@ -39,7 +39,7 @@ export default function SignupPage() {
         </div>
         <div className="relative z-10 text-center text-white px-12 max-w-md">
           <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity }}>
-            <Image src="/hermaa_logo.png" alt="HerMaa" width={160} height={160} className="mx-auto mb-8 rounded-3xl shadow-2xl" />
+            <Image src="/logo.png" alt="HerMaa" width={160} height={160} className="mx-auto mb-8 rounded-3xl shadow-2xl" />
           </motion.div>
           <h2 className="text-3xl font-bold mb-4">Join HerMaa</h2>
           <p className="text-white/80 text-lg leading-relaxed mb-8">Start your health journey today. Track, learn, and grow with a companion that truly cares.</p>
